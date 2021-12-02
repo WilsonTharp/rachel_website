@@ -9,7 +9,9 @@ import {
     Home,
     Header,
     About,
-    Resume
+    Cv,
+    Teaching,
+    Research
   } from './components';
 
 const App = () => {
@@ -24,7 +26,11 @@ const App = () => {
 
 					<Route path="/about" element={<About />}/>
 
-                    <Route path="/resume" element={<Resume />}/>
+          <Route path="/cv" element={<Cv />}/>
+
+          <Route path="/teaching" element={<Teaching />}/>
+
+          <Route path="/research" element={<Research />}/>
 
 
                  </Routes>	
