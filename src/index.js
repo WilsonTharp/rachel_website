@@ -11,7 +11,8 @@ import {
     About,
     Cv,
     Teaching,
-    Research
+    Research,
+    Dissertation
   } from './components';
 
 const App = () => {
@@ -28,9 +29,11 @@ const App = () => {
 
           <Route path="/cv" element={<Cv />}/>
 
-          <Route path="/teaching" element={<Teaching />}/>
+          <Route path="/teaching" element={<Teaching  />}/>
 
           <Route path="/research" element={<Research />}/>
+
+          <Route path="/dissertation" element={<Dissertation />}/>
 
 
                  </Routes>	
